@@ -133,7 +133,7 @@ module.exports = React.createClass({
                     <input type="password" placeholder="密码" className="form-control" />
                 </div>
                  <div className="form-group">
-                    <input type="submit" value="登录" className="loginButton btn btn-success btn-block" />
+                    <input type="submit" value="登录" className="loginButton btn btn-success btn-block" onClick={this.handleLogin}/>
                 </div>
                  <div className="form-group">
                     <a href="#">尚未注册？</a>
