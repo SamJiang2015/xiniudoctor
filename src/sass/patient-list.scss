@@ -1,0 +1,19 @@
+.patient-list {
+  th {
+      background-color:#232f3e;
+      color:ghostwhite;
+    }
+
+  th, td {
+    text-align: center;
+    margin: 0;
+  }
+
+  .hospitalized {
+      background-color: /*#a89e9e*/ white;
+  }
+
+  .discharged {
+      background-color: /*#a0a5ff*/ lightgreen;
+  }
+}

@@ -1,0 +1,26 @@
+.patient-report {
+
+  .panel {
+    margin-top: 35px;
+  }
+  .panel-heading {
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .panel-fixed-height-short {
+    height: 150px;
+      overflow-y: scroll;
+  }
+
+  .panel-fixed-height {
+    height: 200px;
+  }
+}
+
+.patient-detail {
+  Nav {
+    background: lightgray;
+  }
+}

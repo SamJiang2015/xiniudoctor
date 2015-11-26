@@ -1,0 +1,128 @@
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #232f3e;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 0px;
+  margin-left: -5px;
+}
+
+.nav-sidebar li {
+    list-style: none;
+}
+
+.nav-sidebar  li  a:hover,
+.nav-sidebar  li  a:focus {
+  color: #fff;
+  background-color: #428bca;
+    text-decoration: none;
+}
+
+.nav-sidebar  li  a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.nav-sidebar  .active  a,
+.nav-sidebar  .active  a:hover,
+.nav-sidebar  .active  a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.side-menu {
+  position: absolute;
+  left: 300px;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  left: 5px;
+  top: 60px;
+  z-index: 2;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* Background color of sidebar */
+.bm-menu {
+  background: #373a47;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* General menu styles */
+.bm-menu {
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}

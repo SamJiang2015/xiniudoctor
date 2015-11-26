@@ -1,0 +1,48 @@
+.login {
+
+  .form-group {
+    margin-right: 4px;
+  }
+
+  #topContainer {
+    width: 100%;
+    color: black /*#0f0b0b*/;
+  }
+
+  .logo-text img {
+    position: relative;
+    top: 6px;
+    height: 40px;
+  }
+
+  #topRow {
+      padding-top:50px;
+      text-align: center;
+  }
+
+  #buttonRow {
+      padding-top:50px;
+  }
+
+  #topContainer h1 {
+      font-size:3em;
+  }
+
+  #topContainer strong {
+      font-size:1.3em;
+  }
+
+  #topRow h1 {
+      opacity: 0.8;
+      line-height: 1.2em;
+  }
+
+  #loginColumn {
+      padding-top:50px;
+      color:black;
+  }
+
+  .modal-header {
+     background-color:#f7f7f9;
+  }
+}
